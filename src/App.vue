@@ -1,20 +1,6 @@
 <template>
 <el-container>
   <el-header>
-    <!-- <el-menu
-        :default-active="activeIndex2"
-        class="el-menu-demo"
-        mode="horizontal"
-        @select="handleSelect"
-        background-color="#545c64"
-        text-color="#fff"
-        active-text-color="#ffd04b"
-      >
-        <el-menu-item index="1" @click="goToChildRoute('/vue#')">{{$t('home')}}</el-menu-item>
-        <el-menu-item index="2" @click="goToChildRoute('/vue#/about')">测控网</el-menu-item>
-        <el-menu-item index="3" @click="goToChildRoute('/sys#')">火箭测控</el-menu-item>
-        <el-menu-item index="4">系统管理</el-menu-item>
-    </el-menu>-->
     <lz-head></lz-head>
   </el-header>
   <el-container class="content-index">
